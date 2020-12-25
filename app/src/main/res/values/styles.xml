@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dark_accent_style" parent="AppTheme">
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="disabled_et">
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:longClickable">false</item>
+    </style>
+
+    <style name="calendar_style" parent="AppTheme">
+        <item name="colorPrimary">@color/deep_blue_grey</item>
+        <item name="colorAccent">@color/blue_highlight</item>
+    </style>
+    
+    <style name="payment_radioBttons" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/custom_radio_buttons</item>
+        <item name="android:button">@drawable/custom_radio_buttons</item>
+    </style>
+
+    <style name="sum_texts">
+        <item name="android:padding">@dimen/margin_small</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="switch_style">
+        <item name="android:colorControlActivated">#43A047</item>
+    </style>
+
+    <style name="divider_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:layout_marginStart">@dimen/margin_small</item>
+        <item name="android:layout_marginEnd">@dimen/margin_small</item>
+    </style>
+
+    <style name="list_buttons_style">
+        <item name="android:background">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingEnd">@dimen/margin_large</item>
+        <item name="android:paddingStart">@dimen/margin_med</item>
+        <item name="android:gravity">start|center</item>
+    </style>
+
+    <style name="darkAccent_noActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="inputlayout_style" parent="Widget.Design.TextInputLayout">
+        <item name="android:padding">@dimen/margin_small</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/input_rounded_border</item>
+    </style>
+
+    <style name="input_edittext_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/med_text_size</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="app_buttons_style">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/margin_small</item>
+        <item name="android:paddingEnd">@dimen/margin_small</item>
+        <item name="android:background">@drawable/app_button_background</item>
+    </style>
+
+    <style name="card_maintxt_label">
+        <item name="android:layout_marginStart">@dimen/margin_small</item>
+        <item name="android:textColor">@color/deep_blue_grey</item>
+        <item name="android:textSize">@dimen/card_mainlbl_txtsize</item>
+    </style>
+
+    <!--count text-->
+    <style name="dash_counting_text">
+        <item name="android:layout_marginEnd">@dimen/margin_med</item>
+        <item name="android:background">@drawable/landing_page_background_count</item>
+        <item name="android:textColor">@color/blue_black</item>
+        <item name="android:textSize">@dimen/card_mainlbl_txtsize</item>
+        <item name="android:padding">@dimen/margin_small</item>
+    </style>
+
+    <style name="intro_rb_style">
+        <item name="android:buttonTint">@color/deep_blue_grey</item>
+    </style>
+
+    <style name="dashboard_lbl">
+        <item name="android:textColor">@color/blue_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="edittor_style">
+        <item name="android:ems">10</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/med_text_size</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="android:Theme.Material.Dialog">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:calendarViewShown">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:datePickerStyle">@style/MySpinnerDatePicker</item>
+    </style>
+
+    <style name="MySpinnerDatePicker" parent="android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="input_textview_label">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:layout_marginStart">@dimen/margin_med</item>
+        <item name="android:background">@color/deep_blue_grey</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

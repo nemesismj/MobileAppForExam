@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">10dp</dimen>
+    <dimen name="margin_tiny">5dp</dimen>
+    <dimen name="normal_text_size">12sp</dimen>
+    <dimen name="margin_med">15dp</dimen>
+    <dimen name="margin_large">35dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="logo_dimen">100dp</dimen>
+    <dimen name="med_text_size">14sp</dimen>
+    <dimen name="small_button">35dp</dimen>
+    <dimen name="avatar_dim">85dp</dimen>
+    <dimen name="reg_pic_dim">70dp</dimen>
+    <dimen name="propic_set">200dp</dimen>
+    <dimen name="dash_card_height">120dp</dimen>
+    <dimen name="card_elevate">4dp</dimen>
+    <dimen name="dash_card_icons">40dp</dimen>
+    <dimen name="card_mainlbl_txtsize">20sp</dimen>
+    <dimen name="verify_code_dim">40dp</dimen>
+    <dimen name="intro_text_width">300dp</dimen>
+    <dimen name="largest_text">20sp</dimen>
+    <dimen name="large_text">18sp</dimen>
+    <dimen name="profile_pic_size">150dp</dimen>
+    <dimen name="doc_pro_pic">90dp</dimen>
+</resources>

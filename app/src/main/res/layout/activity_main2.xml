@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="311dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="314dp"
+            android:layout_height="240dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/symptoms"
+                android:layout_width="310dp"
+                android:layout_height="53dp"
+                android:background="@drawable/ov_options_back"
+                android:hint="Full name" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Allergies"
+                android:layout_width="312dp"
+                android:layout_height="60dp"
+                android:background="@drawable/ov_options_back"
+                android:hint="username" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/deseases"
+                android:layout_width="313dp"
+                android:layout_height="56dp"
+                android:background="@drawable/ov_options_back"
+                android:hint="password" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+
+                <Button
+                    android:id="@+id/Register"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#68A4FF"
+                    android:text="Register" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="156dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:text="Already have acc?" />
+
+                <TextView
+                    android:id="@+id/textViewLogin"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textColor="#144AFA" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

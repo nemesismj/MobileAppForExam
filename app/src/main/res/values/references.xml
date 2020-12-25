@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="safe_pref_name">safedoctor_preference</string>
+    <string name="first_run_prefkey">first_run</string>
+    <string name="records_ref">Account_Records</string>
+    <string name="all_users">All_Users</string>
+    <string name="default_email_suffix">"@careassistusers.com"</string>
+    <string name="booked">Booked</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="completed">Completed</string>
+    <string name="doctors">Doctors</string>
+
+</resources>

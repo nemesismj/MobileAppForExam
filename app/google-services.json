@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "557790158069",
+    "firebase_url": "https://anroid-studio-project-default-rtdb.firebaseio.com",
+    "project_id": "anroid-studio-project",
+    "storage_bucket": "anroid-studio-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557790158069:android:9b689a0609ef669cb2f9bc",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557790158069-jiqnuh2c671554lth0u3qi7c962b9gro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "99d5cd72d65a8eaa03b799749df3d3d094477c98"
+          }
+        },
+        {
+          "client_id": "557790158069-r446vc971f5sa8rgvmttvhu6oip9t3rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNYDU0-M1_0E7INJ19SqkHGR9aD6Xq_BQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557790158069-r446vc971f5sa8rgvmttvhu6oip9t3rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
